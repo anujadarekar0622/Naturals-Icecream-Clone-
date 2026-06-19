@@ -1,0 +1,103 @@
+
+
+.products-section{
+    width:90%;
+    max-width:1400px;
+    margin:60px auto;
+    display:flex;
+    gap:50px;
+    align-items:flex-start;
+}
+
+
+
+/* RIGHT SIDE */
+
+.product-area{
+    flex:1;
+}
+
+
+/* TOP BAR */
+
+.product-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:40px;
+    color:#555;
+    font-size:17px;
+}
+
+
+
+
+/* PRODUCT GRID */
+
+.Ice-Cream{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+
+/* PRODUCT CARD */
+
+.pro1{
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    text-align:center;
+    box-shadow:0 4px 15px rgba(0,0,0,0.08);
+    transition:0.3s;
+    padding-bottom:25px;
+}
+
+.pro1:hover{
+    transform:translateY(-10px);
+}
+
+.pro1 img{
+    width:100%;
+    height:230px;
+    object-fit:cover;
+}
+
+.pro1 h3{
+    margin:20px 0;
+    font-size:24px;
+    color:#222;
+}
+
+
+/* BUTTONS */
+
+.buy,
+.read{
+    border:none;
+    padding:10px 20px;
+    border-radius:6px;
+    color:#fff;
+    font-size:15px;
+    cursor:pointer;
+    margin:5px;
+}
+
+.buy{
+    background:#00ac4e;
+}
+
+.read{
+    background:#333;
+}
+
+.buy:hover{
+    background:#008f42;
+}
+
+.read:hover{
+    background:#111;
+}
+
+
+

@@ -1,0 +1,152 @@
+/* ================= STORE LOCATOR ================= */
+
+.store-locator{
+    width:100%;
+    background:#eeeeee;
+    padding:70px 80px;
+}
+
+/* Heading */
+
+.store-heading{
+    text-align:center;
+    margin-bottom:70px;
+}
+
+.store-heading h1{
+    font-size:60px;
+    font-weight:700;
+    color:#222;
+    margin-bottom:10px;
+}
+
+.store-heading p{
+    font-size:18px;
+    color:#666;
+}
+
+.store-heading span{
+    color:#00ac4e;
+}
+
+/* Main Section */
+
+.locator-container{
+    max-width:1400px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:50px;
+}
+
+/* Left Side */
+
+.locator-form{
+    flex:1;
+    max-width:500px;
+}
+
+.locator-map{
+    flex:1.2;
+}
+.locator-form h2{
+    font-size:38px;
+    line-height:1.3;
+    margin-bottom:35px;
+}
+
+/* Select Boxes */
+
+.locator-form select{
+    width:100%;
+    height:65px;
+    padding:0 20px;
+    margin-bottom:25px;
+    border:none;
+    border-radius:8px;
+    background:white;
+    font-size:18px;
+    outline:none;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+
+/* Location Button */
+
+.location-btn{
+    background:#00ac4e;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:6px;
+    font-size:17px;
+    cursor:pointer;
+    margin-bottom:30px;
+}
+
+.location-btn i{
+    margin-right:8px;
+}
+
+/* Search Button */
+
+.search-btn{
+    width:100%;
+    height:65px;
+    border:none;
+    border-radius:8px;
+    background:#00ac4e;
+    color:white;
+    font-size:20px;
+    letter-spacing:2px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.search-btn:hover{
+    background:#008f40;
+}
+
+/* Right Side */
+
+.locator-map{
+    width:55%;
+}
+
+.locator-map iframe{
+    width:100%;
+    height:500px;
+    border:none;
+    border-radius:12px;
+    display:block;
+}
+/* ================= MOBILE ================= */
+
+@media(max-width:992px){
+
+    .store-locator{
+        padding:50px 30px;
+    }
+
+    .locator-container{
+        flex-direction:column;
+        gap:40px;
+    }
+
+    .locator-form,
+    .locator-map{
+        width:100%;
+    }
+
+    .store-heading h1{
+        font-size:45px;
+    }
+
+    .locator-form h2{
+        font-size:32px;
+    }
+
+    .locator-map iframe{
+        height:400px;
+    }
+}
